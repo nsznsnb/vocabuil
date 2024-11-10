@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import { Provider } from "@/components/ui/provider";
 import Header from "./components/Header";
-import { Box, Center, Container } from "@chakra-ui/react";
+import { Box, Center } from "@chakra-ui/react";
 
 const myfont = Noto_Sans_JP({
   subsets: ["latin"],
